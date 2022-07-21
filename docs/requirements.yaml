@@ -1,0 +1,13 @@
+name: test_mda_conda_nortd-docs
+channels:
+dependencies:
+    # Base depends
+  - python
+  - pip
+
+  - sphinx
+
+  # Pip-only installs
+  - pip:
+    - sphinx_rtd_theme
+
